@@ -208,3 +208,6 @@ ro.telephony.ril.v3=writeaidonly,signalstrength
 # Vold switchability uncomment second line to swap
 ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 #persist.sys.vold.switchexternal=1
+
+# temp fix for dalvik-cache
+dalvik.vm.dexopt-data-only=1
